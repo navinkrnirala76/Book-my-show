@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Seat Booking</title>
+    <link rel="stylesheet" href="assets/style/app.css" />
+  </head>
+  <body>
+    <div class="movie-container">
+     <a href="payment.html"class="header-btn">Proceed to pay</a>
+     <a href="extra.html"class="header-bac">Back</a>
+     
+      <label for="">Pick a movie</label>
+      <select id="movie">
+        <option value="250">Avengers: Endgame (Rs.250)</option>
+        <option value="310">The Fate of the Furious 8(Rs.310)</option>
+        <option value="200">Kalank(Rs.200)</option>
+        <option value="300">Guardians of the Galaxy(Rs.300)</option>
+        <option value="210">Beauty and the Beast(Rs.210)</option>
+        <option value="200">Logan(Rs.200)</option>
+        <option value="250">NGK(Rs.250)</option>
+        <option value="350">Wonder Woman (Rs.350)</option>
+        <option value="300">Bring Him Home(Rs.300)</option>
+        <option value="210">Stand Up Comedy(Rs.210)</option>
+        <option value="220">Music Event(Rs.220)</option>
+        <option value="300">Itna Confidence Nhi Hai(Rs.300)</option>
+        <option value="280">Educational Event(Rs.280)</option>
+        <option value="150">Spill Poetry Show(Rs.150)</option>
+        <option value="200">Raise The Roast(Rs.200)</option>
+        <option value="280">Turkey Twerk(Rs.280)</option>
+        <option value="180">Jhumroo(Rs.180)</option>
+      </select>
+    </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>N/A</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>Selected</small>
+      </li>
+      <li>
+        <div class="seat occupied"></div>
+        <small>Occupied</small>
+      </li>
+    </ul>
+
+    <div class="container">
+      <div class="screen"></div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+      </div>
+    </div>
+
+    <p class="text">
+      You have selected <span id="count">0</span> seats for a price of Rs.<span
+        id="total"
+        >0</span
+      >
+    </p>
+
+    <script src="assets/scripts/app.js"></script>
+  </body>
+</html>
